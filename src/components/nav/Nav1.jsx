@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 
-import {Link, NavLink} from 'react-router-dom'
+import {NavLink} from 'react-router-dom'
 import {links} from '../../data.js'
 import {FaBars} from 'react-icons/fa'
 import {MdClose} from 'react-icons/md'
-import Logo from '../../assets/logo.png'
+
 
 import "./nav1.css"
 
