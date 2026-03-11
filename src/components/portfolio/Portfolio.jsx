@@ -16,7 +16,7 @@ const data = [
     id:9,
     image: IMG9,
     title: "Sacred Simulations",
-    demo: "https://r5.vladimirsalatic.com/index.html",
+    demo: "https://r1.vladimirsalatic.com/index.html",
     tech: "React | TailwindCSS | Next13"
   },
   {
@@ -24,7 +24,7 @@ const data = [
     image: IMG8,
     title: "Tenzies Game",
     github: "https://github.com/Abee777/React/tree/master/Tenzies-game",
-    demo: "https://r4.vladimirsalatic.com/index.html",
+    demo: null,
     tech: "React"
   },
   {
@@ -32,7 +32,7 @@ const data = [
     image: IMG7,
     title: "Note App",
     github: "https://github.com/Abee777/React/tree/master/Note-app",
-    demo: "https://r3.vladimirsalatic.com/index.html",
+    demo: null,
     tech: "React"
   },
   {
@@ -40,7 +40,7 @@ const data = [
     image: IMG6,
     title: "Travel Journal",
     github: "https://github.com/Abee777/React/tree/master/Travel-Journey",
-    demo: "https://r2.vladimirsalatic.com/index.html",
+    demo: null,
     tech: "React"
   },
   {
@@ -48,7 +48,7 @@ const data = [
     image: IMG5,
     title: "Meme Generator",
     github: "https://github.com/Abee777/React/tree/master/Meme-generator",
-    demo: "https://r1.vladimirsalatic.com/index.html",
+    demo: null,
     tech: "React"
   },
   {
@@ -56,7 +56,7 @@ const data = [
     image: IMG4,
     title: "PHP Shoutbox",
     github: "https://github.com/Abee777/Projects-VS/tree/master/ajaxPHPshoutbox",
-    demo: "https://vladimirsalatic.com/ajaxPHPshoutbox/index.php",
+    demo: null,
     tech: "PHP"
   },
   {
@@ -64,7 +64,7 @@ const data = [
     image: IMG3,
     title: "Iks-oks",
     github: "https://github.com/Abee777/Projects-VS/tree/master/iks-oks_game",
-    demo: "https://vladimirsalatic.com/iks-oks_game/index.html",
+    demo: null,
     tech: "jQuery"
   },
   {
@@ -72,7 +72,7 @@ const data = [
     image: IMG2,
     title: "Rock Paper Scissors",
     github: "https://github.com/Abee777/Projects-VS/tree/master/rock_paper_scissors_game",
-    demo: "https://vladimirsalatic.com/rock_paper_scissors_game/index.html",
+    demo: null,
     tech: "JS"
   },
   {
@@ -80,7 +80,7 @@ const data = [
     image: IMG1,
     title: "Martial Arts Quiz",
     github: "https://github.com/Abee777/Projects-VS/tree/master/martial_arts_quiz",
-    demo: "https://vladimirsalatic.com/martial_arts_quiz/index.html",
+    demo: null,
     tech: "jQuery"
   }
 ]
@@ -103,7 +103,7 @@ const Portfolio = () => {
                 <p>{tech}</p>
                 <div className="portfolio__item-buttons">
                   <a href={github} className='btn' target="_blank" rel="noreferrer">Github</a>
-                  <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>
+                  {demo && <a href={demo} className='btn btn-primary' target="_blank" rel="noreferrer">Live Demo</a>}
                 </div>
               </article>
             )
