@@ -17,7 +17,7 @@ const data = [
     image: IMG9,
     title: "Sacred Simulations",
     github: "https://github.com/Abee777/SacredSimulations",
-    demo: "https://r1.vladimirsalatic.com/index.html",
+    demo: "https://r1.vladimirsalatic.com",
     tech: "React | TailwindCSS | Next13"
   },
   {
